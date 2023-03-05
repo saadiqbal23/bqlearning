@@ -1,0 +1,57 @@
+<html>
+    <head>
+ <title>Forms</title>
+    </head>
+    <Body background="Social.png"
+        <form action="http://www.example.com/review.php" method="get">
+        <fieldset>
+        <h1>Sign up</h1>
+        <p>It's Quick and easy</p>
+        <legend>Your details</legend><br/>
+        <label>First Name:
+        <input type="text" name="First Name" size="20"maxlength="30" />
+        <label>Surname:
+        <input type="text" name="Surname" size="20"maxlength="30" />
+        <p></p>
+        <label>Email:
+        <input type="text" name="E mail " size="25"maxlength="40" />
+        <label>password:
+        <input type="password" name="New password" size="19"maxlength="30" />
+        <p>Date of birth</p>
+        <select name="Days">
+         <option value="1">1</option>
+         <option value="2">2</option>
+         <option value="3">3</option>
+         </select>
+         <select name="Month">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            </select>
+        <select name="Year">
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+                </select>
+         <p>Gender
+        <br />
+            <input type="radio" name="gender" value="Male" checked="checked" /> Male
+            <input type="radio" name="genre" value="Female" />Female
+        </p>
+        <p>Topics of Intrest</p>
+           <select name="Intrests" size="3"
+            multiple="multiple">
+            <option value="Technology" selected="selected">
+            Technology</option>
+            <option value="Politics">Politics</option>
+            <option value="Sports"
+            selected="selected">Sports</option>
+           </select>
+
+        <p>Upload your Profile Picture </p>
+           <input type="file" name="Profile Picture" /><br />
+           <input type="submit" value="Upload" />
+        </fieldset>
+    </form>
+   </body>   
+</html>
